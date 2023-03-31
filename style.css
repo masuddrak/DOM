@@ -1,0 +1,10 @@
+.primary{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+
+.secondary{
+    margin-top: 50px;
+}

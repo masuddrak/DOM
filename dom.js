@@ -1,5 +1,4 @@
-const tags=document.getElementsByTagName('h1');
-console.log(tags);
-for(let tag of tags){
-    tag.style.color='green'
-}
+
+const my_element=document.getElementById('fist');
+my_element.className='primary';
+my_element.classList.add('secondary')
