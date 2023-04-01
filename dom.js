@@ -1,4 +1,5 @@
-
-const my_element=document.getElementById('fist');
-my_element.className='primary';
-my_element.classList.add('secondary')
+const container=document.querySelector(".container")
+console.log(container)
+const my_heading=document.createElement('h1');
+my_heading.innerText='document object model';
+container.appendChild(my_heading)
